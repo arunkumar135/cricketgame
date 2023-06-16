@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        #team{
+            width:200px;
+            height:200px;
+            border:3px solid red;
+        }
+        input{
+            width:200px;
+            height:50px;
+            font-size: 30px;
+            margin-left: 700px;
+            color: black;
+            background-color: white;
+            border-radius: 20px;
+            margin-top: 20px;
+        }
+        input:hover{
+            background-color: blue;
+            width:230px;
+            height:60px;
+            transform: translateX(-30px);
+            transform: translateY(-10px);
+        }
+        .you{
+            display: flex;
+            column-gap: 30px;
+            width:1500px;
+            height:250px;
+            border:5px solid greenyellow;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .oppo{
+            display: flex;
+            column-gap: 30px;
+            width:1500px;
+            height:250px;
+            border:5px solid red;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 50px;
+        }
+        p{
+            font-size: 30px;
+            font-family: sans-serif;
+            margin-left: 500px;
+            margin-top: 30px;
+            width: fit-content;
+            font-weight: bold;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body style="background-image: url(https://thebridge.in/h-upload/2022/05/03/26723-the-ipl-2022-trophy.jpg); background-size: 100% 100%; background-repeat: no-repeat; height:750px; overflow: hidden;">
+    <p> Select Two teams from below</p>
+    <div class="you">
+      <img style="border: 3px solid blue;" src="https://hindi.insidesport.in/wp-content/uploads/2022/02/de.jpg?w=400" alt="" width="150px" height="150px" id="dc1" onclick="img1()">
+      <img style="border: 3px solid blue;" src="https://static.toiimg.com/thumb/msid-77990255,width-400,resizemode-4/77990255.jpg" alt="" width="150px" height="150px" id="pbks1" onclick="img2()">
+      <img style="border: 3px solid blue;" src="srh.png" alt="" width="150px" height="150px" id="srh1" onclick="img3()">
+      <img style="border: 3px solid blue;" src="https://c.ndtvimg.com/2022-02/4ts1faoo_gujarat-titans-logo-facebook_625x300_20_February_22.jpg" id="gt1" alt="" width="150px" height="150px" onclick="img4()">
+      <img style="border: 3px solid blue;" src="https://hindi.insidesport.in/wp-content/uploads/2022/02/mum.jpg" alt="" id="mi1" width="150px" height="150px" onclick="img5()">
+      <img style="border: 3px solid blue;" src="https://pixlok.com/wp-content/uploads/2021/01/CSK_Logo_with_satin_flag.jpg" id="csk1" alt="" width="150px" height="150px" onclick="img6()">
+      <img style="border: 3px solid blue;" src="https://wallpaperaccess.com/full/2009369.jpg" alt="" width="150px" id="rcb1" height="150px" onclick="img7()">
+    </div>
+    <div class="oppo">
+      <img style="border: 3px solid blue;" src="https://hindi.insidesport.in/wp-content/uploads/2022/02/de.jpg?w=400" alt="" width="150px" height="150px" id="dc2" onclick="imge1()">
+      <img style="border: 3px solid blue;" src="https://static.toiimg.com/thumb/msid-77990255,width-400,resizemode-4/77990255.jpg" alt="" width="150px" height="150px" id="pbks2" onclick="imge2()">
+      <img style="border: 3px solid blue;" src="srh.png" alt="" width="150px" height="150px" id="srh2" onclick="imge3()">
+      <img style="border: 3px solid blue;" src="https://c.ndtvimg.com/2022-02/4ts1faoo_gujarat-titans-logo-facebook_625x300_20_February_22.jpg" id="gt2" alt="" width="150px" height="150px" onclick="imge4()">
+      <img style="border: 3px solid blue;" src="https://hindi.insidesport.in/wp-content/uploads/2022/02/mum.jpg" alt="" id="mi2" width="150px" height="150px" onclick="imge5()">
+      <img style="border: 3px solid blue;" src="https://pixlok.com/wp-content/uploads/2021/01/CSK_Logo_with_satin_flag.jpg" id="csk2" alt="" width="150px" height="150px" onclick="imge6()">
+      <img style="border: 3px solid blue;" src="https://wallpaperaccess.com/full/2009369.jpg" alt="" width="150px" id="rcb2" height="150px" onclick="imge7()">
+    </div>
+    <a href="game.html"><input type="button" value="Play Now"></a>   
+    <script src="design.js">
+
+    </script>
+</body>
+</html>
