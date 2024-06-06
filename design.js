@@ -150,7 +150,7 @@ else if(t == 5)
 }
 else if(t == 6)
    {
-    x.setAttribute("src","https://pixlok.com/wp-content/uploads/2021/01/CSK_Logo_with_satin_flag.jpg");
+    x.setAttribute("src","csk.png");
 }
 else if(t == 7)
    {
@@ -180,7 +180,7 @@ else if(u == 5)
 }
 else if(u == 6)
    {
-    y.setAttribute("src","https://pixlok.com/wp-content/uploads/2021/01/CSK_Logo_with_satin_flag.jpg");
+    y.setAttribute("src","csk.png");
 }
 else if(u == 7)
    {
