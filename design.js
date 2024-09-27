@@ -130,11 +130,11 @@ function img4(){
    y.setAttribute("height","200");
    if( t == 1)
    {
-   x.setAttribute("src","https://hindi.insidesport.in/wp-content/uploads/2022/02/de.jpg?w=400");
+   x.setAttribute("src","dc.jpg");
 }
 else if(t == 2)
    {
-    x.setAttribute("src","https://static.toiimg.com/thumb/msid-77990255,width-400,resizemode-4/77990255.jpg");
+    x.setAttribute("src","RR.jpg");
 }
 else if(t == 3)
    {
@@ -142,11 +142,11 @@ else if(t == 3)
 }
 else if(t == 4)
    {
-    x.setAttribute("src","https://c.ndtvimg.com/2022-02/4ts1faoo_gujarat-titans-logo-facebook_625x300_20_February_22.jpg");
+    x.setAttribute("src","gt.jpeg");
 }
 else if(t == 5)
    {
-    x.setAttribute("src","https://hindi.insidesport.in/wp-content/uploads/2022/02/mum.jpg");
+    x.setAttribute("src","mi.png");
 }
 else if(t == 6)
    {
@@ -154,17 +154,17 @@ else if(t == 6)
 }
 else if(t == 7)
    {
-    x.setAttribute("src","https://wallpaperaccess.com/full/2009369.jpg");
+    x.setAttribute("src","rcb.webp");
 }
 
     document.getElementById("team1").appendChild(x);
     if( u == 1)
    {
-   y.setAttribute("src","https://hindi.insidesport.in/wp-content/uploads/2022/02/de.jpg?w=400");
+   y.setAttribute("src","dc.jpg");
 }
 else if(u == 2)
    {
-    y.setAttribute("src","https://static.toiimg.com/thumb/msid-77990255,width-400,resizemode-4/77990255.jpg");
+    y.setAttribute("src","RR.jpg");
 }
 else if(u == 3)
    {
@@ -172,11 +172,11 @@ else if(u == 3)
 }
 else if(u == 4)
    {
-    y.setAttribute("src","https://c.ndtvimg.com/2022-02/4ts1faoo_gujarat-titans-logo-facebook_625x300_20_February_22.jpg");
+    y.setAttribute("src","gt.jpeg");
 }
 else if(u == 5)
    {
-    y.setAttribute("src","https://hindi.insidesport.in/wp-content/uploads/2022/02/mum.jpg");
+    y.setAttribute("src","mi.png");
 }
 else if(u == 6)
    {
@@ -184,7 +184,7 @@ else if(u == 6)
 }
 else if(u == 7)
    {
-    y.setAttribute("src","https://wallpaperaccess.com/full/2009369.jpg");
+    y.setAttribute("src","rcb.webp");
 }
 
     document.getElementById("team2").appendChild(y);
